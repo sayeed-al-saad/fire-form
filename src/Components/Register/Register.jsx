@@ -3,7 +3,9 @@ const Register = () => {
 
     const handleSubmit = e => {
         e.preventDefault()
-        console.log('form sbmittes')
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        console.log(email, password)
     }
 
     return (
